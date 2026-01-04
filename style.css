@@ -1,0 +1,454 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #1B004E;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    color: white;
+    gap: 30px;
+    list-style: none;
+}
+
+.btn {
+    width: 152px;
+    height: 47px;
+    border: 2px solid #EB5757;
+    border-radius: 50px;
+    background-color: inherit;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    color: white;
+    margin-top: 200px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.btnn {
+    width: 191px;
+    height: 47px;
+    border-radius: 50px;
+    background-color: #EB5757;
+    color: white;
+    border: none;
+}
+
+p {
+    margin: 50px 0;
+}
+
+.bola {
+    width: 312px;
+    height: 274px;
+    margin-top: 50px;
+}
+
+.ota {
+    display: flex;
+    color: rgb(0, 0, 0);
+    gap: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.here {
+    background-color: white;
+}
+
+.tor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heru {
+    width: 633px;
+    height: 222px;
+    color: white;
+}
+
+.text {
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.menu {
+    background-color: white;
+    gap: 50px;
+}
+
+.taxi {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.ata {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.bala {
+    width: 368px;
+    height: 399px;
+}
+
+.bala p {
+    margin: 0;
+}
+
+.btne {
+    width: 139px;
+    height: 62px;
+    top: 2911px;
+    border-radius: 31px;
+    margin-left: -150px;
+}
+
+input {
+    width: 578px;
+    height: 74px;
+    top: 2905px;
+    border-radius: 37px;
+    background-color: inherit;
+    border: 2px solid #FFFFFF;
+    padding: 10px;
+}
+
+.go {
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.qor p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.ota1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.bola1 {
+    margin-top: 50px;
+}
+
+footer {
+    background: linear-gradient(227.07deg, #4E0062 0.43%, #220076 99.56%);
+
+}
+
+.df {
+    display: flex;
+    gap: 10px;
+}
+
+.ota2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btna {
+    width: 30px;
+    height: 32px;
+    border: 2px solid #616161;
+    border-radius: 10px;
+    background-color: inherit;
+    color: #616161;
+}
+
+h6 {
+    color: #BCBCBC;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btna:hover {
+    background-color: #EB5757;
+    color: white;
+    border: 2px solid #EB5757;
+}
+
+.btne:hover {
+    background-color: #EB5757;
+    color: white;
+    border: 2px solid #EB5757;
+}
+
+.btn:hover {
+    background-color: #EB5757;
+    color: white;
+    border: 2px solid #EB5757;
+}
+
+.btnn:hover {
+    background-color: #3300eb;
+    color: rgb(0, 255, 68);
+    border: 2px solid #1424ce;
+}
+
+.bars {
+    background-color: #1B004E;
+    border: none;
+    color: #00EEFF;
+    font-size: 24px;
+    display: none;
+}
+nav ul:hover{
+    color: #EB5757;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    header {
+        padding: 30px;
+        margin: 0;
+    }
+
+    .hero {
+        margin-top: 0;
+    }
+
+    .oo {
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        line-height: 100%;
+        text-align: center;
+
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .btnn {
+        width: 136px;
+        height: 31px;
+        top: 284.56px;
+        margin-left: 250px;
+        border-radius: 50px;
+        gap: 10px;
+
+    }
+
+    .bola {
+        width: 257px;
+        height: 205px;
+        top: 535.64px;
+        margin-left: 64.28px;
+    }
+
+    .bola p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: center;
+    }
+
+    .bola img {
+        margin-left: 30%;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    .il {
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .ota {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .text {
+        text-align: center;
+        font-family: Poppins;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 100%;
+    }
+
+    .rasm {
+        display: none;
+    }
+
+    .tor {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+
+    .bala img {
+        width: 343px;
+        height: 218px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+    }
+
+    .taxi {
+        width: 344px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        margin-left: 130px;
+
+    }
+
+    input {
+        width: 343px;
+        height: 48px;
+    }
+
+    .qor p {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    h3 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .btne {
+        width: 139px;
+        height: 40px;
+        border-radius: 31px;
+    }
+
+    .rasm4 {
+        width: 221px;
+        height: 100px;
+        margin-left: 200px;
+    }
+
+    .rasm1 {
+        margin-top: 100px;
+        width: 100%;
+        width: 207px;
+        height: 232px;
+    }
+
+    .ata {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bala {
+        width: 343px;
+        height: 434px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+    }
+
+    footer {
+        flex-direction: column;
+    }
+     .ota2{
+        flex-direction: column;
+     }
+     .ota1{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+     }
+     footer{
+        display: flex;
+        justify-content: center;
+     }
+     .df{
+        display: flex;
+     }
+}
+
+
